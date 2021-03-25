@@ -68,6 +68,24 @@ int main() {
 	
 	printf("****************************************************************\n");
 
+	//Aufgabe 6
+	int start5 =1;
+	int end5 = 1000;
+	int limit = 555;
+	int sum5 = 0;
+	int counter5 = 0;
+	
+	for( int i = start5; i <= end5; )
+	{
+		sum5 = sum5 + i;
+		counter5 = i;
+		i = i + 1;
+		if( sum5 > limit )
+		{
+			break;
+		}	
+	}
+	printf("with max. sum %d, the sum of the integers from %d to %d is %d \n", limit, start5, counter5, sum5 );
 
 
 	
