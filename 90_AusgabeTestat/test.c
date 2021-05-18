@@ -17,3 +17,4 @@ int main(void)
 	binaer (dezimal);
 	return 0;
 }
+
